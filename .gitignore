@@ -1,0 +1,6 @@
+.env
+.env.*
+!env.template
+*.log
+DAILY-SUMMARY.md
+.DS_Store
