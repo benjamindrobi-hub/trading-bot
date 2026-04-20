@@ -2,9 +2,9 @@
 
 ## Overview
 - What: Autonomous trading bot challenge
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000
 - Platform: Alpaca (paper or live, per ALPACA_MODE)
-- Duration: [your challenge window]
+- Duration: 23 April 2026 - 8 May 2026
 - Strategy: Swing trading stocks, no options
 - Timezone: America/Boise (MT). Market hours 07:30–14:00 local.
 

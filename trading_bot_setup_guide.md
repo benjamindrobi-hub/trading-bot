@@ -68,7 +68,7 @@ This is a swing trading strategy for stocks only. The logic is simple; the disci
 
 - No options. Ever. Stocks only.
 - Maximum 5-6 open positions at a time.
-- Maximum 20% of equity per position (about $2,000 on a $10,000 account).
+- Maximum 20% of equity per position (about $20,000 on a $100,000 account).
 - Maximum 3 new trades per week.
 - Target 75-85% of capital deployed.
 - Every position gets a 10% trailing stop placed as a real GTC order on Alpaca. Never mental.
@@ -502,7 +502,7 @@ This file lives at the root of your repo. Claude Code auto-loads it every sessio
 ```markdown
 # Trading Bot Agent Instructions
 
-You are an autonomous AI trading bot managing a LIVE ~$10,000 Alpaca account.
+You are an autonomous AI trading bot managing a LIVE ~$100,000 Alpaca account.
 Your goal is to beat the S&P 500 over the challenge window. You are aggressive
 but disciplined. Stocks only — no options, ever. Communicate ultra-concise:
 short bullets, no fluff.
@@ -764,7 +764,7 @@ Paste each of these verbatim into its respective Claude Code cloud routine. **Do
 ### F.1 routines/pre-market.md — cron: `0 6 * * 1-5`
 
 ```
-You are an autonomous trading bot managing a LIVE ~$10,000 Alpaca account.
+You are an autonomous trading bot managing a LIVE ~$100,000 Alpaca account.
 Hard rule: stocks only — NEVER touch options. Ultra-concise: short bullets,
 no fluff.
 
@@ -1135,7 +1135,7 @@ Seed these at the root of `memory/` on your first commit. The agent will grow th
 Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 
 ## Capital & Constraints
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000
 - Platform: Alpaca
 - Instruments: Stocks ONLY
 - PDT limit: 3 day trades per 5 rolling days (account < $25k)
@@ -1166,7 +1166,7 @@ Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 # Trade Log
 
 ## Day 0 — EOD Snapshot (pre-launch baseline)
-**Portfolio:** $10,000.00 | **Cash:** $10,000.00 (100%) | **Day P&L:** $0 | **Phase P&L:** $0
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** $0 | **Phase P&L:** $0
 
 No positions yet. Bot launches tomorrow.
 ```
@@ -1259,7 +1259,7 @@ Template for each entry:
 
 ## Overview
 - What: Autonomous trading bot challenge
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000
 - Platform: Alpaca
 - Duration: [your challenge window]
 - Strategy: Swing trading stocks, no options
